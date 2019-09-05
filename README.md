@@ -1,7 +1,10 @@
-# Web Login Key Generator
+## Web Auth Key Generator
 
-Simple app that generates 6-digit key and updates record on server for login.
+Simple flutter application that generates 6-digit code and updates it to a web server using HTTP POST Request.
+After update, the administrator types this code in the web application on login site.
 
-## Getting Started
+![Screenshot](https://raw.githubusercontent.com/diamond95/flutterKeyGenerator/master/1.jpg)
+
+
 
 
