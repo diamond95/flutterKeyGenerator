@@ -8,3 +8,18 @@ After update, the administrator types this code in the web application on login 
 
 
 
+## PHP - HTTP Request
+
+
+```php
+                    <?php
+
+                    $data = json_decode(file_get_contents('php://input'), true);
+
+                    if($data['key'] != 0 && $data['key'] != "" && $data['key'] != "0") {
+                        // save key in database
+                    } else {
+                        echo "error";
+                    }
+
+```
