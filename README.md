@@ -27,7 +27,7 @@ Adventage of using key generator is stopping brute-force attacks on your web app
 
 ```
 ## TODO 
-    - [:white_check_mark:] change key length
+    - :white_check_mark: change key length
     - [] automatic key update after generating 
 
 
